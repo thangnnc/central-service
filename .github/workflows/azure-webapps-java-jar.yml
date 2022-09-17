@@ -69,6 +69,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: java-app
+      - name: Test download artifact from build job
+        run: ls -R
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
