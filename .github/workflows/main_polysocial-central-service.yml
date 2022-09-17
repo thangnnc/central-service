@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'polysocial-central-service'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_79E5CE66280948A191F142A6B1AB5F82 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CF20CA4613FA4DA3B4E5925A6B96FEAB }}
           package: '*.jar'
